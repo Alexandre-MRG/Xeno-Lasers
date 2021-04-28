@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1585331591952422}
+  m_IsPrefabAsset: 1
+--- !u!1 &1585331591952422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4511715540733468}
+  - component: {fileID: 114838466183875548}
+  m_Layer: 0
+  m_Name: MissileLauncherController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4511715540733468
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1585331591952422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.7603335, y: 6.092213, z: 0.17597176}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114838466183875548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1585331591952422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73858abce177d2d4e8e105eae54680de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missileObjectSingle: {fileID: 1921379798756560, guid: 15d26dba11713fa43901ccc84451be40,
+    type: 2}
+  missileObjectMulti: {fileID: 1921379798756560, guid: 72d8c6d569256c247bbc18f70c9c2942,
+    type: 2}
+  activationSound: {fileID: 8300000, guid: 1dad837b27de40c4fae47e498ce9137a, type: 3}
+  actualAmmo: 0
+  maxAmmo: 2
+  spaceBetweenMissile: 0.01
